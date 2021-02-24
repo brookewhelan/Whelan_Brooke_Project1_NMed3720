@@ -1,7 +1,7 @@
 {
     "manifest_version": 2, 
-    "name": "Brooke's Plugin",
-    "description": "cool fun plugin by Brooke!",
+    "name": "The Recipe Finder",
+    "description": "cool fun recipe plugin by Brooke!",
     "version": "1.0",
     "permissions": ["activeTab"],
     "content_scripts": [
@@ -14,7 +14,7 @@
      ],
     "action": {
         "default_icon": {
-            "32":"/images/chrome_icon.jpg"
+            "32":"/images/chrome_icon.png"
         },
         "default_popup": "popup.html"
     },
